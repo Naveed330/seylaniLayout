@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <link rel="stylesheet" href="signup.css" />
+   
+  </head>
+  <body>
+    <div id="container">
+        <div id="navbar">
+            <div id="logo">
+               <img src="../Assest/saylani-logo.png" alt="">
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="../Home.html">Home</a> </li>
+                    <li><a href="../login/login.html">Login</a> </li>
+                    <li><a href="#">Sign up</a> </li>
+                    <li><a href="../dashboard/Dashboard.html">Dashboard</a> </li>
+                    <li><a href="../Course/Course.html">Course</a> </li>
+                </ul>
+            </div>
+        </div>
+        <div id="loginPage">
+            <div id="login1"></div>
+            <div id="login2">
+                <h1>Sign Up</h1>
+                <p>Welcome again! Signup to access the <strong> Saylani </strong> portal</p>
+                <form action="">
+                    <fieldset style="display: inline;">
+                        <legend >Signup info</legend>
+                            <input type="text" class="input" name="fName" id="fName" placeholder="First Name" required/> <br>
+                            <input type="text" class="input" name="lName" id="lName" placeholder="Last Name" required/> <br>
+                            <input type="email" class="input" name="email" id="email" placeholder="Email" required/> <br>
+                            <input type="password" class="input" name="password" id="password" placeholder="Password" required /> <br>
+                            <input type="date" class="input" name="DOB" id="DOB" required /> <br>
+                            <textarea name="" class="input" style="margin-top: 15px; resize: none;height: 50px;"  placeholder="Enter about yourself"></textarea> <br>
+                            <div class="padding">
+                            Gender <input type="radio" name="gender" id="" checked /> Male
+                                    <input type="radio" name="gender" id="" />  Female
+                            </div>
+                            <div class="padding">
+                                Select Your Hobbies: <br>
+                                <input type="checkbox" name="" id="" /> Cricket
+                                <input type="checkbox" name="" id="" /> Movies
+                                <input type="checkbox" name="" id="" /> PUBG
+                            </div>
+                            <div class="padding">
+                            Select Your City:
+                            <select name="" id="">
+                              <option value="FSD">Fasialabad</option>
+                              <option value="LHR">Lahore</option>
+                              <option value="ISB">Islammabad</option>
+                              <option value="MUR">Murree</option>
+                            </select>
+                            </div>
+                            <div class="padding">
+                            Upload Your Picture: <br>
+                            <input type="file" style="display: block;" name="" id="" accept="image/png" />
+                            </div> <br>
+                            <input type="submit" class="button" value="Submit" />
+                    </fieldset>
+                </form>
+            </div>
+            <div id="login3"></div>
+        </div>
+    </div>
+  </body>
+</html>
